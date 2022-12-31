@@ -1,0 +1,3 @@
+[submodule "plugins/sphinxdesign/sphinx-design"]
+	path = plugins/sphinxdesign/sphinx-design
+	url = https://github.com/executablebooks/sphinx-design.git

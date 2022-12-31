@@ -1,0 +1,14 @@
+[Core]
+Name = sphinxdesign
+Module = sphinxdesign
+
+[Nikola]
+PluginCategory = CompilerExtension
+Compiler = rest
+MinVersion = 8.0.0
+
+[Documentation]
+Author = Vaclav Smilauer
+Version = 0.0.1
+Description = Sphinx compatibility layer and Sphinx Design directives
+
