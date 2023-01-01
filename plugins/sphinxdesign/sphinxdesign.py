@@ -109,9 +109,8 @@ class Plugin(RestExtension):
     name='sphinxdesign'
     def set_site(self,site):
         self.site=site
-        # import sphinx_design
-        import sys
-        sys.path.append('/home/eudoxos/build/sphinx-design')
+        import sys, os.path
+        sys.path.append(os.path.dirname(os.path.abspath(__file__))+'/sphinx-design')
         import sphinx_design.extension
         sphinx_design.extension.setup_extension(app)
         return super(Plugin, self).set_site(site)
